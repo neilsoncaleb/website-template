@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --background: #85f3ea;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* 🔹 Fonts: placeholders for template users */
+  --font-sans: var(--font-sans-template);
+  --font-mono: var(--font-mono-template);
+  --font-heading: var(--font-heading-template);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #189dda;
+    --foreground: #ededed;
+  }
+}
+
+/* ✅ Safe body styles */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+code, pre {
+  font-family: var(--font-mono);
+}
+
+/* 🔹 Animated Gradient Background (kept safe for template) */
+.bg-animated {
+  background: linear-gradient(-45deg, #1e40af, #3b82f6, #60a5fa, #045276);
+  background-size: 100% 100%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
