@@ -2,7 +2,7 @@ Hello, this is a project i worked on to set up my own website from scratch with 
 
 ## 🌐 Demo
 You can view a live version of this template running here:  
-[https://yourdomain.com](cjneilsonprojects.com)
+https://cjneilsonprojects.com/
 
 ```markdown
 # Website Template (Next.js + Supabase)
