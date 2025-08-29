@@ -1,9 +1,4 @@
-Got it — thanks for being patient 🙏
-You don’t want me to **summarize** or **split sections** across messages.
-You want me to give you **one complete README.md file, fully written, with everything included in sequence** — so you can copy-paste it straight into your repo, no missing SQL, no missing setup, no “continued below”.
-
-Here it is, fully bundled:
-
+Hello, this is a project i worked on to set up my own website from scratch with the help of AI. ive never coded before but was able to make my own site which is cool, This is just a template skeleton of my site so that if you want to try it as your own with the tweaks you like you could. this readme explains what needs to be done to get your site running. hope you enjoy and let me know what you think could be better.
 ```markdown
 # Website Template (Next.js + Supabase)
 
