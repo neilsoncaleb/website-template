@@ -1,4 +1,9 @@
 Hello, this is a project i worked on to set up my own website from scratch with the help of AI. ive never coded before but was able to make my own site which is cool, This is just a template skeleton of my site so that if you want to try it as your own with the tweaks you like you could. this readme explains what needs to be done to get your site running. hope you enjoy and let me know what you think could be better.
+
+## 🌐 Demo
+You can view a live version of this template running here:  
+[https://yourdomain.com](cjneilsonprojects.com)
+
 ```markdown
 # Website Template (Next.js + Supabase)
 
